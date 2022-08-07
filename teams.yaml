@@ -1,25 +1,31 @@
 teams:
     T01:
-        name: Rubber Duckies
-        rookie: Yes
+        name: Team 1
+        rookie: true
     T02:
         name: Team 2
-        rookie: Yes
+        rookie: true
     T03:
-        name: Team Spork
-        rookie: Yes
+        name: Team 3
+        rookie: true
     T04:
         name: Team 4
-        rookie: Yes
+        rookie: true
     T05:
-        name: Inconsistency
-        rookie: Yes
+        name: Team 5
+        rookie: true
     T06:
         name: Team 6
-        rookie: Yes
+        rookie: true
     T07:
-        name: Team Sus
-        rookie: Yes
+        name: Team 7
+        rookie: true
     T08:
-        name: Group Gr8
-        rookie: Yes
+        name: Team 8
+        rookie: true
+    T09:
+        name: Team 9
+        rookie: true
+    T10:
+        name: Team 10
+        rookie: true
