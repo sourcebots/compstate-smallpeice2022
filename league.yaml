@@ -1,65 +1,41 @@
 matches:
   0:
-    Simulator: [T08, T01]
+    main: [T08, T04, T05, T06]
   1:
-    Simulator: [T02, T04]
+    main: [T07, T03, T02, T10]
   2:
-    Simulator: [T06, T03]
+    main: [T06, T09, T01, T04]
   3:
-    Simulator: [T03, T04]
+    main: [T05, T02, T03, T08]
   4:
-    Simulator: [T05, T07]
+    main: [T06, T09, T07, T01]
   5:
-    Simulator: [T01, T07]
+    main: [T10, T08, T04, T02]
   6:
-    Simulator: [T02, T05]
+    main: [T05, T03, T09, T07]
   7:
-    Simulator: [T06, T08]
+    main: [T01, T10, T08, T04]
   8:
-    Simulator: [T04, T01]
+    main: [T03, T06, T05, T02]
   9:
-    Simulator: [T03, T07]
+    main: [T01, T07, T10, T09]
   10:
-    Simulator: [T06, T05]
+    main: [T07, T05, T06, T10]
   11:
-    Simulator: [T04, T06]
+    main: [T04, T01, T03, T02]
   12:
-    Simulator: [T07, T08]
+    main: [T09, T10, T08, T05]
   13:
-    Simulator: [T08, T02]
+    main: [T02, T04, T06, T07]
   14:
-    Simulator: [T05, T01]
+    main: [T09, T05, T01, T08]
   15:
-    Simulator: [T03, T02]
+    main: [T10, T06, T04, T03]
   16:
-    Simulator: [T05, T01]
+    main: [T02, T08, T07, T01]
   17:
-    Simulator: [T08, T03]
+    main: [T03, T09, T10, T06]
   18:
-    Simulator: [T07, T02]
+    main: [T04, T07, T02, T05]
   19:
-    Simulator: [T02, T06]
-  20:
-    Simulator: [T07, T06]
-  21:
-    Simulator: [T01, T03]
-  22:
-    Simulator: [T04, T08]
-  23:
-    Simulator: [T04, T05]
-  24:
-    Simulator: [T03, T05]
-  25:
-    Simulator: [T06, T07]
-  26:
-    Simulator: [T01, T02]
-  27:
-    Simulator: [T07, T04]
-  28:
-    Simulator: [T01, T06]
-  29:
-    Simulator: [T02, T03]
-  30:
-    Simulator: [T08, T04]
-  31:
-    Simulator: [T05, T08]
+    main: [T08, T01, T09, T03]
