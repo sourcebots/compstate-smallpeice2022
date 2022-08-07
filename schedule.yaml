@@ -26,14 +26,14 @@ delays: []
 #
 match_periods:
   league:
-  - start_time: 2021-08-20 09:50:00+01:00
-    end_time: 2021-08-20 12:00:00+01:00
+  - start_time: 2022-08-20 09:50:00+01:00
+    end_time: 2022-08-20 12:00:00+01:00
     description: League
 
   #
   knockout:
-  - start_time: 2021-08-20 12:07:00+01:00
-    end_time: 2021-08-20 12:31:00+01:00
+  - start_time: 2022-08-20 12:07:00+01:00
+    end_time: 2022-08-20 12:31:00+01:00
     description: Knockouts
 
 league:
@@ -56,40 +56,40 @@ static_knockout:
     0:
       0:
         arena: Simulator
-        start_time: 2021-08-20 12:08:00+01:00
+        start_time: 2022-08-20 12:08:00+01:00
         display_name: Quarter 1
         teams: [S7, S2]
       1:
         arena: Simulator
-        start_time: 2021-08-20 12:11:00+01:00
+        start_time: 2022-08-20 12:11:00+01:00
         display_name: Quarter 2
         teams: [S3, S6]
       2:
         arena: Simulator
-        start_time: 2021-08-20 12:14:00+01:00
+        start_time: 2022-08-20 12:14:00+01:00
         display_name: Quarter 3
         teams: [S1, S8]
       3:
         arena: Simulator
-        start_time: 2021-08-20 12:17:00+01:00
+        start_time: 2022-08-20 12:17:00+01:00
         display_name: Quarter 4
         teams: [S5, S4]
     1:
       0:
         arena: Simulator
-        start_time: 2021-08-20 12:34:00+01:00
+        start_time: 2022-08-20 12:34:00+01:00
         display_name: Semi 1
                # S2  ,  S3
         teams: [S2, S3]
       1:
         arena: Simulator
-        start_time: 2021-08-20 12:47:00+01:00
+        start_time: 2022-08-20 12:47:00+01:00
         display_name: Semi 2
                # S4  ,  S1
         teams: [S8, S5]
     2:
       0:
         arena: Simulator
-        start_time: 2021-08-20 12:50:00+01:00
+        start_time: 2022-08-20 12:50:00+01:00
                # S1  ,  S2
         teams: [S8, S3]
