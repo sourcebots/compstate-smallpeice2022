@@ -1,8 +1,8 @@
 match_slot_lengths:
-  pre: 40
+  pre: 100
   match: 120
   post: 20
-  total: 180
+  total: 240
 #
 # Various staging related times, in seconds before the actual match start
 staging:
@@ -26,14 +26,18 @@ delays: []
 #
 match_periods:
   league:
-  - start_time: 2022-08-20 09:50:00+01:00
-    end_time: 2022-08-20 12:00:00+01:00
-    description: League
+  - start_time: 2022-08-12 10:40:00+01:00
+    end_time: 2022-08-12 12:10:00+01:00
+    description: League (morning)
+  
+  - start_time: 2022-08-12 13:00:00+01:00
+    end_time: 2022-08-12 13:30:00+01:00
+    description: League (afternoon)
 
   #
   knockout:
-  - start_time: 2022-08-20 12:07:00+01:00
-    end_time: 2022-08-20 12:31:00+01:00
+  - start_time: 2022-08-12 13:30:00+01:00
+    end_time: 2022-08-12 14:00:00+01:00
     description: Knockouts
 
 league:
@@ -46,50 +50,27 @@ knockout:
   static: true
 #
 static_knockout:
-  teams_per_arena: 2
+  teams_per_arena: 4
   matches:
-    # This is a knockouts for 8 entrants. Pairings are arranged such that any
-    # increase in seeding gives an easier path to the final. Zones are arranged
-    # such that the top seed gets zone 0 in the final and that the expected
-    # winners (based on seeding performance) experiences alternating zones as
-    # they progress to the final.
     0:
       0:
-        arena: Simulator
-        start_time: 2022-08-20 12:08:00+01:00
+        arena: main
+        start_time: 2022-08-20 13:30:00+01:00
         display_name: Quarter 1
-        teams: [S7, S2]
+        teams: [S10, S7, S6, S3]
       1:
-        arena: Simulator
-        start_time: 2022-08-20 12:11:00+01:00
+        arena: main
+        start_time: 2022-08-20 13:34:00+01:00
         display_name: Quarter 2
-        teams: [S3, S6]
-      2:
-        arena: Simulator
-        start_time: 2022-08-20 12:14:00+01:00
-        display_name: Quarter 3
-        teams: [S1, S8]
-      3:
-        arena: Simulator
-        start_time: 2022-08-20 12:17:00+01:00
-        display_name: Quarter 4
-        teams: [S5, S4]
+        teams: [S9, S8, S5, S4]
     1:
       0:
         arena: Simulator
-        start_time: 2022-08-20 12:34:00+01:00
-        display_name: Semi 1
-               # S2  ,  S3
-        teams: [S2, S3]
-      1:
-        arena: Simulator
-        start_time: 2022-08-20 12:47:00+01:00
-        display_name: Semi 2
-               # S4  ,  S1
-        teams: [S8, S5]
+        start_time: 2022-08-20 12:45:00+01:00
+        display_name: Semifinal
+        teams: ['001', '000', '010', '011']
     2:
       0:
         arena: Simulator
-        start_time: 2022-08-20 12:50:00+01:00
-               # S1  ,  S2
-        teams: [S8, S3]
+        start_time: 2022-08-20 12:55:00+01:00
+        teams: ['100', S1, '101', S2]
