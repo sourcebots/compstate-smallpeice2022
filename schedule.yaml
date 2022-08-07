@@ -15,7 +15,7 @@ staging:
   # How long before the start of the match to signal to shepherds they
   # should start looking for teams
   signal_shepherds:
-    Shepherd: 180
+    main: 180
   # How long before the start of the match to signal to teams they should
   # go to staging
   signal_teams: 180
@@ -65,12 +65,12 @@ static_knockout:
         teams: [S9, S8, S5, S4]
     1:
       0:
-        arena: Simulator
+        arena: main
         start_time: 2022-08-20 12:45:00+01:00
         display_name: Semifinal
         teams: ['001', '000', '010', '011']
     2:
       0:
-        arena: Simulator
+        arena: main
         start_time: 2022-08-20 12:55:00+01:00
         teams: ['100', S1, '101', S2]

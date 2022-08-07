@@ -1,5 +1,5 @@
 match_number: 0
-arena_id: Simulator
+arena_id: main
 teams:
   TLA1:
     zone: 0
