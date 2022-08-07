@@ -1,0 +1,22 @@
+match_number: 0
+arena_id: Simulator
+teams:
+  TLA1:
+    zone: 0
+    disqualified: false
+    present: true
+  TLA2:
+    zone: 1
+    disqualified: false
+    present: true
+
+arena_zones:
+  other:
+    # List of Token Claims, which look like this:
+    # {
+    #     'zone': 0 | 1,
+    #     'token_index': int,
+    #     'location': 'arena' | 'docking_area' | 'zone_0_raised_area' | 'zone_1_raised_area',
+    #     'time': float,
+    # }
+    token_claims: []
