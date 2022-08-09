@@ -5,18 +5,48 @@ teams:
     zone: 0
     disqualified: false
     present: true
+    moved: true
   TLA2:
     zone: 1
     disqualified: false
     present: true
+    moved: true
+  TLA3:
+    zone: 2
+    disqualified: false
+    present: true
+    moved: true
+  TLA4:
+    zone: 3
+    disqualified: false
+    present: true
+    moved: true
 
 arena_zones:
-  other:
-    # List of Token Claims, which look like this:
-    # {
-    #     'zone': 0 | 1,
-    #     'token_index': int,
-    #     'location': 'arena' | 'docking_area' | 'zone_0_raised_area' | 'zone_1_raised_area',
-    #     'time': float,
-    # }
-    token_claims: []
+  0:
+    full: ''
+    partial: ''
+  1:
+    full: ''
+    partial: ''
+  2:
+    full: ''
+    partial: ''
+  3:
+    full: ''
+    partial: ''
+  4:
+    full: ''
+    partial: ''
+  5:
+    full: ''
+    partial: ''
+  6:
+    full: ''
+    partial: ''
+  7:
+    full: ''
+    partial: ''
+  8:
+    full: ''
+    partial: ''
