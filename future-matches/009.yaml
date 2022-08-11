@@ -1,0 +1,52 @@
+match_number: 0
+arena_id: main
+teams:
+  T01:
+    zone: 0
+    disqualified: false
+    present: true
+    moved: true
+  T07:
+    zone: 1
+    disqualified: false
+    present: true
+    moved: true
+  T10:
+    zone: 2
+    disqualified: false
+    present: true
+    moved: true
+  T09:
+    zone: 3
+    disqualified: false
+    present: true
+    moved: true
+
+arena_zones:
+  0:
+    full: ''
+    partial: ''
+  1:
+    full: ''
+    partial: ''
+  2:
+    full: ''
+    partial: ''
+  3:
+    full: ''
+    partial: ''
+  4:
+    full: ''
+    partial: ''
+  5:
+    full: ''
+    partial: ''
+  6:
+    full: ''
+    partial: ''
+  7:
+    full: ''
+    partial: ''
+  8:
+    full: ''
+    partial: ''
