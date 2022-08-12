@@ -68,11 +68,11 @@ static_knockout:
     1:
       0:
         arena: main
-        start_time: 2022-08-12 12:45:00+01:00
+        start_time: 2022-08-12 13:45:00+01:00
         display_name: Semifinal
         teams: ['001', '000', '010', '011']
     2:
       0:
         arena: main
-        start_time: 2022-08-12 12:55:00+01:00
+        start_time: 2022-08-12 13:55:00+01:00
         teams: ['100', S1, '101', S2]
