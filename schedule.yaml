@@ -57,22 +57,22 @@ static_knockout:
     0:
       0:
         arena: main
-        start_time: 2022-08-12 13:30:00+01:00
+        start_time: 2022-08-12 13:10:00+01:00
         display_name: Quarter 1
         teams: [S10, S7, S6, S3]
       1:
         arena: main
-        start_time: 2022-08-12 13:34:00+01:00
+        start_time: 2022-08-12 13:14:00+01:00
         display_name: Quarter 2
         teams: [S9, S8, S5, S4]
     1:
       0:
         arena: main
-        start_time: 2022-08-12 13:45:00+01:00
+        start_time: 2022-08-12 13:25:00+01:00
         display_name: Semifinal
         teams: ['001', '000', '010', '011']
     2:
       0:
         arena: main
-        start_time: 2022-08-12 13:55:00+01:00
+        start_time: 2022-08-12 13:35:00+01:00
         teams: ['100', S1, '101', S2]
