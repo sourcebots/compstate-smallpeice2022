@@ -19,7 +19,7 @@ class Scorer:
 
         self._team_info = teams_data
 
-        self._scoring_zones = arena_data['arena_zones']
+        self._scoring_zones = arena_data
 
     def calculate_scores(self):
         points_per_team = {
@@ -69,7 +69,7 @@ class Scorer:
                     maximum_weight_by_scoring_zone[scoring_zone] > 0
                 ):
                     peak_starting_zones_by_scoring_zone[scoring_zone].append(starting_zone)
-    
+
         # Peak teams by scoring zone
         peak_teams_by_scoring_zone = {
             scoring_zone: [
@@ -93,7 +93,7 @@ class Scorer:
             team: zone_count ** 2
             for team, zone_count in owned_zone_count_by_team.items()
         }
-    
+
         for team in self._team_info:
             points_per_team[team] += owned_zone_score_by_team[team]
 

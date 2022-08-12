@@ -25,12 +25,12 @@ teams:
 arena_zones:
   0:
     full: ''
-    partial: ''
+    partial: 'GG'
   1:
-    full: ''
-    partial: ''
+    full: 'GGGG'
+    partial: 'GG'
   2:
-    full: ''
+    full: 'P'
     partial: ''
   3:
     full: ''
