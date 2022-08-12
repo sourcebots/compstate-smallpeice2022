@@ -44,7 +44,9 @@ league:
   # Extra spacing before an arbitrary set of matches
   # This value is ignored for matches which occur at the start of a period
   # since no additional time is needed there.
-  extra_spacing: []
+  extra_spacing:
+    - match_numbers: '10'
+      duration: 240
 #
 knockout:
   static: true
