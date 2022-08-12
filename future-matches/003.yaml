@@ -1,4 +1,4 @@
-match_number: 0
+match_number: 3
 arena_id: main
 teams:
   T05:
@@ -34,16 +34,16 @@ arena_zones:
     partial: ''
   3:
     full: ''
-    partial: ''
+    partial: 'O'
   4:
-    full: ''
-    partial: ''
+    full: 'G'
+    partial: 'G'
   5:
     full: ''
-    partial: ''
+    partial: 'YG'
   6:
     full: ''
-    partial: ''
+    partial: 'Y'
   7:
     full: ''
     partial: ''
