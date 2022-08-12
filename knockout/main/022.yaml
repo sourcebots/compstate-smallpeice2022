@@ -1,0 +1,52 @@
+match_number: 22
+arena_id: main
+teams:
+  T05:
+    zone: 0
+    disqualified: false
+    present: true
+    moved: true
+  T10:
+    zone: 1
+    disqualified: false
+    present: true
+    moved: true
+  T09:
+    zone: 2
+    disqualified: false
+    present: true
+    moved: true
+  T04:
+    zone: 3
+    disqualified: false
+    present: true
+    moved: true
+
+arena_zones:
+  0:
+    full: ''
+    partial: ''
+  1:
+    full: 'OO'
+    partial: ''
+  2:
+    full: ''
+    partial: 'O'
+  3:
+    full: ''
+    partial: ''
+  4:
+    full: ''
+    partial: ''
+  5:
+    full: 'YYYPP'
+    partial: ''
+  6:
+    full: ''
+    partial: ''
+  7:
+    full: ''
+    partial: ''
+  8:
+    full: ''
+    partial: 'Y'
