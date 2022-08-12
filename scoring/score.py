@@ -19,6 +19,7 @@ class Scorer:
 
         self._team_info = teams_data
 
+
         self._scoring_zones = arena_data
 
     def calculate_scores(self):
