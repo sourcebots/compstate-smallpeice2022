@@ -1,11 +1,11 @@
-match_number: 0
+match_number: 15
 arena_id: main
 teams:
   T10:
     zone: 0
     disqualified: false
     present: true
-    moved: true
+    moved: false
   T06:
     zone: 1
     disqualified: false
@@ -27,8 +27,8 @@ arena_zones:
     full: ''
     partial: ''
   1:
-    full: ''
-    partial: ''
+    full: 'P'
+    partial: 'P'
   2:
     full: ''
     partial: ''
@@ -36,13 +36,13 @@ arena_zones:
     full: ''
     partial: ''
   4:
-    full: ''
+    full: 'OP'
     partial: ''
   5:
-    full: ''
+    full: 'OP'
     partial: ''
   6:
-    full: ''
+    full: 'Y'
     partial: ''
   7:
     full: ''
