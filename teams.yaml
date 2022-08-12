@@ -1,27 +1,27 @@
 teams:
     T01:
-        name: Team 1
+        name: RAWRR
         rookie: true
     T02:
         name: Team 2
         rookie: true
     T03:
-        name: Team 3
+        name: Zem
         rookie: true
     T04:
-        name: Team 4
+        name: Imagine Dragons
         rookie: true
     T05:
-        name: Team 5
+        name: RALTHies
         rookie: true
     T06:
-        name: Team 6
+        name: seiben
         rookie: true
     T07:
-        name: Team 7
+        name: Mahna Manha
         rookie: true
     T08:
-        name: Team 8
+        name: Charlie's Slayngels
         rookie: true
     T09:
         name: Team 9
